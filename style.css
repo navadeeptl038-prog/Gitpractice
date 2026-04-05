@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Main container */
+.container {
+    margin-top: 80px;
+}
+
+/* Title */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Input box */
+input {
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Add button */
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #ff7a18;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3d00;
+}
+
+/* Notes list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+/* Each note */
+li {
+    background: white;
+    color: black;
+    margin: 10px auto;
+    padding: 12px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete button */
+li button {
+    background: red;
+    color: white;
+    padding: 6px 10px;
+}
+
+li button:hover {
+    background: darkred;
+}
